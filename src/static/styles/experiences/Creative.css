@@ -1,0 +1,41 @@
+.App-creative-experience {
+  background: url("../../images/creative.jpeg"), rgba(0, 0, 0, 65%);
+  background-size: cover;
+  background-blend-mode: darken;
+  overflow-y: scroll;
+}
+
+.App-creative-experience-usp {
+  font-family: "Patrick Hand";
+  font-size: 36px;
+  margin-top: 40px;
+  animation: appear 1s ease-in;
+  margin-bottom: 70px;
+}
+
+.App-creative-experience .App-experience-title,
+.App-creative-experience .App-creative-experience-usp {
+  align-self: center;
+}
+
+.App-creative-experience-content {
+  animation: appear 1s ease-in-out;
+  /* position: relative; */
+  min-height: 80vh;
+}
+
+.App-creative-experience-body {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 75px;
+  justify-content: center;
+}
+
+.App-creative-experience-media {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .App-body-experience .App-experience-list:last-child {
+      margin-bottom: 0;
+    } */

@@ -1,0 +1,259 @@
+#App-header {
+  background: url("../images/mainBG.png") rgba(0, 0, 0, 50%);
+  background-blend-mode: darken;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+.App-header-title {
+  position: absolute;
+  top: 42%;
+  font-size: 180px;
+  color: inherit;
+  font-family: "Amatic SC";
+  font-weight: 900;
+  line-height: 0.75em;
+}
+
+.App-header-item-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1100px;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 150px;
+}
+
+.App-header-item-row .App-header-item:last-child {
+  margin-right: 0;
+}
+
+.App-header-item {
+  display: flex;
+  flex-direction: row;
+  /* width: 250px; */
+  padding: 15px 35px;
+  /* border: 1px solid white; */
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  animation: float 4s ease-in-out infinite;
+}
+
+.App-header-item-img {
+  margin-right: 15px;
+  transition: 0.3s;
+  height: 60px;
+}
+
+.App-header-item-label {
+  font-family: "Amatic SC";
+  font-size: 36px;
+  transition: 0.3s;
+}
+
+.App-header-item:hover .App-header-item-label {
+  font-size: 48px;
+  transition: 0.3s;
+  /* animation: appear 1s ease-in-out; */
+}
+
+.App-header-item:hover .App-header-item-img {
+  height: 80px;
+  transition: 0.3s;
+}
+
+.App-header-item.space {
+  position: absolute;
+  right: 75px;
+  top: 100px;
+  min-width: 300px;
+  height: 300px;
+  background: url("../images/spaceIsland.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.3s;
+  background-size: contain;
+}
+
+.App-header-item.space:hover {
+  min-width: 400px;
+  height: 400px;
+  right: 30px;
+  top: 70px;
+}
+
+.App-header-item.space .App-header-item-label {
+  font-size: 70px;
+}
+
+.App-header-item.space:hover .App-header-item-label {
+  font-size: 90px;
+}
+
+.App-header-item.space .App-header-item-img {
+  display: none;
+}
+
+.App-header-item.creative {
+  position: absolute;
+  bottom: 75px;
+  right: 75px;
+  min-width: 400px;
+  height: 400px;
+  background: url("../images/creativeIsland.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.3s;
+  background-size: contain;
+}
+
+.App-header-item.creative:hover {
+  bottom: 75px;
+  right: 30px;
+  min-width: 500px;
+}
+
+.App-header-item.creative .App-header-item-label {
+  font-size: 70px;
+}
+
+.App-header-item.creative:hover .App-header-item-label {
+  font-size: 90px;
+}
+
+.App-header-item.creative .App-header-item-img {
+  display: none;
+}
+
+.App-header-item.earth {
+  position: absolute;
+  bottom: 75px;
+  left: 75px;
+  width: 300px;
+  height: 400px;
+  background: url("../images/earthIsland.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.3s;
+  background-size: contain;
+}
+.App-header-item.earth .App-header-item-label {
+  font-size: 70px;
+}
+
+.App-header-item.earth:hover {
+  width: 405px;
+  height: 540px;
+  bottom: 25px;
+  left: 25px;
+}
+
+.App-header-item.earth:hover .App-header-item-label {
+  font-size: 90px;
+}
+
+.App-header-item.earth .App-header-item-img {
+  display: none;
+}
+
+.App-header-item.stories {
+  position: absolute;
+  top: 100px;
+  left: 75px;
+  min-width: 300px;
+  height: 300px;
+  background-image: url("../images/storyIsland.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.3s;
+  background-size: contain;
+}
+.App-header-item.stories .App-header-item-label {
+  font-size: 70px;
+}
+
+.App-header-item.stories:hover .App-header-item-label {
+  font-size: 90px;
+}
+
+.App-header-item.stories .App-header-item-img {
+  display: none;
+}
+
+.App-header-item.stories:hover {
+  height: 400px;
+  top: 70px;
+}
+
+.App-header-item.language {
+  position: absolute;
+  top: 100px;
+  min-width: 300px;
+  height: 300px;
+  background: url("../images/languageIsland.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.3s;
+  background-size: contain;
+}
+.App-header-item.language .App-header-item-label {
+  font-size: 70px;
+}
+
+.App-header-item.language:hover {
+  min-width: 400px;
+  height: 400px;
+  top: 60px;
+}
+
+.App-header-item.language:hover .App-header-item-label {
+  font-size: 90px;
+}
+
+.App-header-item.language .App-header-item-img {
+  display: none;
+}
+
+.App-header-item.body {
+  position: absolute;
+  bottom: 75px;
+  min-width: 400px;
+  height: 400px;
+  background: url("../images/bodyIsland.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.3s;
+  background-size: contain;
+}
+
+.App-header-item.body:hover {
+  bottom: 75px;
+  min-width: 500px;
+  /* background: url("../images/bodyIslandDark.png"),*/
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.3s;
+  background-size: contain;
+}
+
+.App-header-item.body .App-header-item-label {
+  font-size: 70px;
+}
+
+.App-header-item.body:hover .App-header-item-label {
+  font-size: 90px;
+}
+
+.App-header-item.body .App-header-item-img {
+  display: none;
+}

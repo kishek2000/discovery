@@ -1,0 +1,58 @@
+.App-stories-experience {
+  background: url("../../images/stories.jpg"), rgba(0, 0, 0, 45%);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: white;
+  overflow-y: scroll;
+}
+
+.App-stories-experience-main {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.App-stories-experience-usp {
+  font-family: "Patrick Hand";
+  font-size: 36px;
+  margin-top: 40px;
+  animation: appear 1s ease-in;
+  margin-bottom: 70px;
+}
+
+.App-stories-experience-body {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 75px;
+  justify-content: center;
+}
+
+.App-stories-experience .App-experience-title,
+.App-stories-experience .App-stories-experience-usp {
+  align-self: center;
+}
+
+.App-stories-experience-content {
+  animation: appear 1s ease-in-out;
+  /* position: relative; */
+  min-height: 80vh;
+}
+
+.App-stories-experience-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-stories-experience .App-experience-media-title {
+  color: rgb(255, 255, 255);
+}
+
+.App-stories-experience .App-experience-list:last-child {
+  margin-bottom: 0;
+}
+
+#storiesBgMusic {
+  display: none;
+}

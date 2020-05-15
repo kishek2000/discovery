@@ -1,0 +1,162 @@
+.App-experience-title {
+  font-size: 140px;
+  color: inherit;
+  font-family: "Amatic SC", cursive;
+  font-weight: 900;
+  line-height: 0.75em;
+  margin-top: 170px;
+  position: relative;
+  animation: appear 1s ease-in;
+  align-self: center;
+}
+
+.App-experience-controls-header {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 125px;
+  width: 80px;
+}
+
+.App-experience-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 85%);
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+}
+
+.App-experience-overlay-video {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 1920px;
+  height: 1080px;
+}
+
+.App-home-button {
+  width: 50px;
+  height: 50px;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.App-home-button:hover {
+  margin-top: 0px;
+  width: 55px;
+  height: 55px;
+}
+
+.App-space-experience,
+.App-earth-experience,
+.App-language-experience,
+.App-stories-experience,
+.App-body-experience,
+.App-creative-experience {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  padding-left: 350px;
+  padding-right: 350px;
+  /* align-items: center; */
+  /* animation: appear 1s ease-in; */
+  color: white;
+}
+
+.App-experience-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
+  padding-bottom: 40px;
+  overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+  background: rgb(45, 45, 45);
+  border-radius: 10px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(134, 134, 134);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(172, 172, 172);
+}
+
+.App-experience-list-videos {
+  display: flex;
+  flex-direction: row;
+}
+
+.App-experience-list-meta {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.App-experience-list-title {
+  font-family: "Patrick Hand";
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.App-experience-list-background {
+  font-family: "Patrick Hand";
+  font-size: 24px;
+}
+
+.App-experience-media-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-experience-media-thumbnail {
+  margin-right: 50px;
+  height: 270px;
+  width: 480px;
+  border-radius: 8px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.App-experience-media-title {
+  font-family: "Patrick Hand";
+  font-weight: 900;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.App-experience-media-description {
+  font-family: "Patrick Hand";
+  font-size: 20px;
+  margin-top: 10px;
+  max-width: 500px;
+}
+
+.play-img,
+.pause-img {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+
+.play-img:hover,
+.pause-img:hover {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 0px;
+}

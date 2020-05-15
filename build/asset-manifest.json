@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/youthcourse/static/css/main.722c5ad6.chunk.css",
+    "main.js": "/youthcourse/static/js/main.f03baa49.chunk.js",
+    "main.js.map": "/youthcourse/static/js/main.f03baa49.chunk.js.map",
+    "runtime-main.js": "/youthcourse/static/js/runtime-main.08ba3215.js",
+    "runtime-main.js.map": "/youthcourse/static/js/runtime-main.08ba3215.js.map",
+    "static/js/2.5c2d9db9.chunk.js": "/youthcourse/static/js/2.5c2d9db9.chunk.js",
+    "static/js/2.5c2d9db9.chunk.js.map": "/youthcourse/static/js/2.5c2d9db9.chunk.js.map",
+    "index.html": "/youthcourse/index.html",
+    "precache-manifest.e1fabc9e325be9d2aa58967d1d96fc84.js": "/youthcourse/precache-manifest.e1fabc9e325be9d2aa58967d1d96fc84.js",
+    "service-worker.js": "/youthcourse/service-worker.js",
+    "static/css/main.722c5ad6.chunk.css.map": "/youthcourse/static/css/main.722c5ad6.chunk.css.map",
+    "static/js/2.5c2d9db9.chunk.js.LICENSE.txt": "/youthcourse/static/js/2.5c2d9db9.chunk.js.LICENSE.txt",
+    "static/media/Body.css": "/youthcourse/static/media/body.21e8e4a5.jpg",
+    "static/media/Header.css": "/youthcourse/static/media/storyIsland.2a9ba2f6.png",
+    "static/media/Creative.css": "/youthcourse/static/media/creative.ad3897cd.jpeg",
+    "static/media/Language.css": "/youthcourse/static/media/language.2e5e336a.jpg",
+    "static/media/Space.css": "/youthcourse/static/media/space.cdfb8b32.png",
+    "static/media/Stories.css": "/youthcourse/static/media/stories.3d68b400.jpg",
+    "static/media/stories.mp3": "/youthcourse/static/media/stories.71135219.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08ba3215.js",
+    "static/js/2.5c2d9db9.chunk.js",
+    "static/css/main.722c5ad6.chunk.css",
+    "static/js/main.f03baa49.chunk.js"
+  ]
+}

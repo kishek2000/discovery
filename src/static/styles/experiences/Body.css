@@ -1,0 +1,40 @@
+.App-body-experience {
+  background: url("../../images/body.jpg"), rgba(0, 0, 0, 45%);
+  background-size: cover;
+  background-blend-mode: darken;
+  overflow-y: scroll;
+}
+
+.App-body-experience-usp {
+  font-family: "Patrick Hand";
+  font-size: 36px;
+  margin-top: 40px;
+  animation: appear 1s ease-in;
+  margin-bottom: 70px;
+}
+
+.App-body-experience .App-experience-title,
+.App-body-experience .App-body-experience-usp {
+  align-self: center;
+}
+
+.App-body-experience-content {
+  animation: appear 1s ease-in-out;
+  /* position: relative; */
+  min-height: 80vh;
+}
+
+.App-body-experience-body {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 75px;
+  justify-content: center;
+}
+
+.App-body-experience-media {
+  display: flex;
+  flex-direction: column;
+}
+/* .App-body-experience .App-experience-list:last-child {
+    margin-bottom: 0;
+  } */
