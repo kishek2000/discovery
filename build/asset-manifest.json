@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/discovery/static/css/main.82f35b23.chunk.css",
+    "main.css": "/discovery/static/css/main.f6f82a05.chunk.css",
     "main.js": "/discovery/static/js/main.032495d8.chunk.js",
     "main.js.map": "/discovery/static/js/main.032495d8.chunk.js.map",
     "runtime-main.js": "/discovery/static/js/runtime-main.50d87a60.js",
@@ -8,9 +8,9 @@
     "static/js/2.9ebe5443.chunk.js": "/discovery/static/js/2.9ebe5443.chunk.js",
     "static/js/2.9ebe5443.chunk.js.map": "/discovery/static/js/2.9ebe5443.chunk.js.map",
     "index.html": "/discovery/index.html",
-    "precache-manifest.bc28d2a84a6f12a3af8600e704ee7c33.js": "/discovery/precache-manifest.bc28d2a84a6f12a3af8600e704ee7c33.js",
+    "precache-manifest.830c10046bd9a86a84ef222fb40c2db4.js": "/discovery/precache-manifest.830c10046bd9a86a84ef222fb40c2db4.js",
     "service-worker.js": "/discovery/service-worker.js",
-    "static/css/main.82f35b23.chunk.css.map": "/discovery/static/css/main.82f35b23.chunk.css.map",
+    "static/css/main.f6f82a05.chunk.css.map": "/discovery/static/css/main.f6f82a05.chunk.css.map",
     "static/js/2.9ebe5443.chunk.js.LICENSE.txt": "/discovery/static/js/2.9ebe5443.chunk.js.LICENSE.txt",
     "static/media/Body.css": "/discovery/static/media/body.8135499e.jpg",
     "static/media/Header.css": "/discovery/static/media/storyIsland.b5d5d90a.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.50d87a60.js",
     "static/js/2.9ebe5443.chunk.js",
-    "static/css/main.82f35b23.chunk.css",
+    "static/css/main.f6f82a05.chunk.css",
     "static/js/main.032495d8.chunk.js"
   ]
 }
