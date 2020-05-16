@@ -27,7 +27,6 @@ export function HomePage(props) {
               class={item["class"]}
               setPage={props.setCurrentPage}
               subjectTitle={item["title"]}
-              imgUrl={item["icon"]}
             />
           ))}
         </header>

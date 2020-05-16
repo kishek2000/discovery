@@ -9,7 +9,6 @@ export function SubjectItem(props) {
         props.setPage(props.subjectTitle);
       }}
     >
-      <img className={`App-header-item-img`} src={props.imgUrl} alt="icon" />
       <div className={`App-header-item-label`}>{props.subjectTitle}</div>
     </div>
   );
