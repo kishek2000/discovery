@@ -1,6 +1,8 @@
 import React from "react";
 import { MediaGroup } from "../MediaGroup";
 import { allMedia } from "../../../../data/index";
+import mp3 from "../../../../data/courses/mainbg.mp3";
+import { BgJingle } from "../BgJingle";
 
 export function LanguagePage(props) {
   const storage = new allMedia();
@@ -9,6 +11,7 @@ export function LanguagePage(props) {
     <>
       {props.class === "language" && (
         <>
+          <BgJingle class={props.class} mp3={mp3} />
           <>
             <div className="App-experience-title">LANGUAGE</div>
             <div className="App-language-experience-usp">
@@ -26,6 +29,7 @@ export function LanguagePage(props) {
                     setSubject={props.setSubject}
                     setHome={props.setHome}
                     setOverlayVideo={props.setOverlayVideo}
+                    src={mp3}
                   />
                 </div>
               </div>

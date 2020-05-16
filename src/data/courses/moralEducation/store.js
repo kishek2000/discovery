@@ -5,6 +5,7 @@ export const moralEducationData = [
     outcome: "O2.1",
     background:
       "Sit down and make many animated friends, and watch their stories!",
+    index: 0,
     videos: [
       {
         title: "The Wolf and the Crane",
@@ -75,6 +76,7 @@ export const moralEducationData = [
     title: "Animated Films",
     outcome: "O2.1",
     background: "Enter a world of short animated films and enjoy the stories!",
+    index: 1,
     videos: [
       {
         title: "Hate is Evil",
@@ -106,6 +108,7 @@ export const moralEducationData = [
     title: "Jataka Tales of the Buddha",
     outcome: "O2.1",
     background: "Enter an animated world of tales taught by the Gautam Buddha!",
+    index: 2,
     videos: [
       {
         title: "The Wood Pecker, Deer and Tortoise",
@@ -193,6 +196,7 @@ export const moralEducationData = [
     outcome: "O2.3",
     background:
       "Have some fun and explore the world with Pingu, our friend penguin!",
+    index: 3,
     videos: [
       {
         title: "Episode 1",

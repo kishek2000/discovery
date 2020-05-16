@@ -5,6 +5,7 @@ export const creativeData = [
     outcome: "O4.1",
     background:
       "Welcome to a fun series where we explore the inventions of our world! There are always interesting stories behind them, so tune in and have some fun!",
+    index: 0,
     videos: [
       {
         duration: "6:09",
@@ -222,6 +223,7 @@ export const creativeData = [
     outcome: "O4.2",
     background:
       "For our second series, let's explore some interesting questions, like why is the sky blue? Or how do rainbows form?",
+    index: 1,
     videos: [
       {
         duration: "",
@@ -318,6 +320,7 @@ export const creativeData = [
     outcome: "O4.3",
     background:
       "Creativity is also about getting hands on and making things. Let's make some origami friends!",
+    index: 2,
     videos: [
       {
         duration: "",

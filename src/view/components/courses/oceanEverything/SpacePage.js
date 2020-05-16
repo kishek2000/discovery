@@ -1,6 +1,8 @@
 import React from "react";
 import { MediaGroup } from "../MediaGroup";
 import { allMedia } from "../../../../data/index";
+import mp3 from "../../../../data/courses/mainbg.mp3";
+import { BgJingle } from "../BgJingle";
 
 export function SpacePage(props) {
   const storage = new allMedia();
@@ -9,6 +11,7 @@ export function SpacePage(props) {
     <>
       {props.class === "space" && (
         <>
+          <BgJingle class={props.class} mp3={mp3} />
           <>
             <div className="App-experience-title">SPACE</div>
             <div className="App-space-experience-usp">
@@ -25,6 +28,7 @@ export function SpacePage(props) {
                     setSubject={props.setSubject}
                     setOverlayVideo={props.setOverlayVideo}
                     setHome={props.setHome}
+                    src={mp3}
                   />
                 </div>
               </div>

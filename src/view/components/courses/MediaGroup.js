@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { ListNav } from "../ListNav";
+import pause from "../../../static/images/pause.png";
+import play from "../../../static/images/play.png";
 
 function pauseSong(classN, src) {
   console.log("pause");
@@ -44,25 +47,17 @@ export function MediaGroup(props) {
             }}
           >
             {song === true ? (
-              <img
-                src="https://img.icons8.com/ios-glyphs/30/000000/play.png"
-                className="play-img"
-                alt="PLAY"
-              />
+              <img src={play} className="play-img" alt="PLAY" />
             ) : (
-              <img
-                src="https://img.icons8.com/ios-glyphs/30/000000/pause.png"
-                className="pause-img"
-                alt="PAUSE"
-              />
+              <img src={pause} className="pause-img" alt="PAUSE" />
             )}
           </div>
         </div>
         <div className={`App-${props.class}-experience-media`}>
-          {data.map((list, num) =>
+          {data.map((list) =>
             list.type === "list" ? (
               <RenderLists
-                num={num}
+                num={list["index"]}
                 list={list}
                 setOverlayVideo={props.setOverlayVideo}
                 class={props.class}
@@ -76,9 +71,9 @@ export function MediaGroup(props) {
                     {list.background}
                   </div>
                 </div>
-                {list.lists.map((nest, numTwo) => (
+                {list.lists.map((nest) => (
                   <RenderLists
-                    num={numTwo}
+                    num={nest["index"]}
                     list={nest}
                     setOverlayVideo={props.setOverlayVideo}
                     class={props.class}
@@ -96,27 +91,31 @@ export function MediaGroup(props) {
 
 function RenderLists(props) {
   return (
-    <div className="App-experience-list" key={props.num}>
-      <div className="App-experience-list-meta">
-        <div className="App-experience-list-title">{props.list["title"]}</div>
-        <div className="App-experience-list-background">
-          {props.list["background"]}
+    <div className="list-container">
+      <ListNav index={props.num} list={props.list} />
+      <div className="App-experience-list" index={props.num}>
+        <div className="App-experience-list-meta">
+          <div className="App-experience-list-title">{props.list["title"]}</div>
+          <div className="App-experience-list-background">
+            {props.list["background"]}
+          </div>
         </div>
+        <RenderListVideos
+          class={props.class}
+          src={props.src}
+          list={props.list}
+          setOverlayVideo={props.setOverlayVideo}
+          pauseSong={pauseSong}
+          index={props.num}
+        />
       </div>
-      <RenderListVideos
-        class={props.class}
-        src={props.src}
-        list={props.list}
-        setOverlayVideo={props.setOverlayVideo}
-        pauseSong={pauseSong}
-      />
     </div>
   );
 }
 
 function RenderListVideos(props) {
   return (
-    <div className="App-experience-list-videos">
+    <div className="App-experience-list-videos" index={props.inde}>
       {props.list["videos"].map((item, index) => (
         <div className="App-experience-media-item" key={index}>
           <img

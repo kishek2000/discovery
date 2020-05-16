@@ -3,6 +3,7 @@ export const spaceData = [
     type: "list",
     title: "The Beginning of Time",
     outcome: "O3.1.1",
+    index: 0,
     background:
       "Let's go back in time and explore how everything we see was created!",
     videos: [
@@ -29,6 +30,7 @@ export const spaceData = [
     outcome: "O3.1.2",
     background:
       "Let's explore all the things that are out there in space right now!",
+    index: 1,
     videos: [
       {
         title: "Stars",

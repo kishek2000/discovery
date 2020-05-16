@@ -5,6 +5,7 @@ export const bodyData = [
     outcome: "O2.1",
     background:
       "One of the most fascinating areas to understand about our body is its parts and organs, and its systems! Let's explore.",
+    index: 0,
     videos: [
       {
         title: "Introduction",
@@ -83,6 +84,7 @@ export const bodyData = [
     outcome: "O2.1",
     background:
       "It is always important for us to eat healthy food, and take care of our body. Let's learn more about this!",
+    index: 1,
     videos: [
       {
         title: "Healthy?",

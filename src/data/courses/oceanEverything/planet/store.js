@@ -4,6 +4,7 @@ export const earthData = [
     title: "The Beginning",
     outcome: "O3.2.1",
     background: "Let's go back in time and explore how our planet was made!",
+    index: 0,
     videos: [
       {
         title: "Creation of Earth",
@@ -23,23 +24,6 @@ export const earthData = [
       },
     ],
   },
-  // {
-  //   type: "list",
-  //   title: "History",
-  //   outcome: "O3.2.1",
-  //   background:
-  //     "The past is a huge reason why we are here today. Come and learn about the past of humanity!",
-  //   videos: [
-  //     // {
-  //     //   title: "India",
-  //     //   id: "i42otfB4xBk",
-  //     //   description: "India is a beautiful country with a rich history. ",
-  //     //   videos: "",
-  //     //   difficulty: "medium",
-  //     //   duration: ""
-  //     // },
-  //   ],
-  // },
   {
     type: "area",
     title: "Nature",
@@ -53,6 +37,7 @@ export const earthData = [
         outcome: "O3.2.3",
         background:
           "Let's explore everything to do with animals, plants, and the environment!",
+        index: 1,
         videos: [
           {
             title: "Ecosystems",
@@ -110,6 +95,7 @@ export const earthData = [
         outcome: "O3.2.3",
         background:
           "The World has so many wonderful landforms - mountains, waterfalls, and many more. Let's learn about them!",
+        index: 2,
         videos: [
           {
             title: "Introduction",
@@ -136,6 +122,7 @@ export const earthData = [
         outcome: "O3.2.4",
         background:
           "In today's times it is so much easier to talk or look at each other, thanks to technology. How does it all work?",
+        index: 3,
         videos: [
           {
             title: "What is Communication?",
@@ -161,6 +148,7 @@ export const earthData = [
         outcome: "O3.2.4",
         background:
           "Today's world has much much easier ways to move from one place to the other. Let's learn how!",
+        index: 4,
         videos: [
           {
             title: "Means of Transport",
@@ -180,6 +168,7 @@ export const earthData = [
     outcome: "O3.2.5",
     background:
       "All of the actions that we take everyday, have an impact on the environment. It is important that we don't harm the Earth, who provides us everything!",
+    index: 5,
     videos: [
       {
         title: "Ozone",
@@ -225,6 +214,7 @@ export const earthData = [
     outcome: "O3.2.5",
     background:
       "On the news, we sometimes hear about natural disasters like Earthquakes, or Tornados. How are they even caused? Let's learn about them!",
+    index: 6,
     videos: [
       {
         title: "Drought",

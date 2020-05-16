@@ -1,7 +1,7 @@
 import React from "react";
 import { allMedia } from "../../../../data/index";
 import { MediaGroup } from "../MediaGroup";
-import mp3 from "../../../../data/courses/moralEducation/stories.mp3";
+import mp3 from "../../../../data/courses/mainbg.mp3";
 
 export function StoriesPage(props) {
   const storage = new allMedia();

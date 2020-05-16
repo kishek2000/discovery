@@ -11,6 +11,7 @@ export const languageData = [
         outcome: "O1.1",
         background:
           "First, we begin with letters, where we will learn to read and write vowels and consonants in Hindi.",
+        index: 0,
         videos: [
           {
             title: "Guided Vowels Writing",
@@ -36,6 +37,7 @@ export const languageData = [
         outcome: "O1.2",
         background:
           "Now, let's make things more interesting and write some words!",
+        index: 1,
         videos: [
           {
             title: "English and Hindi Words",
@@ -61,6 +63,7 @@ export const languageData = [
         outcome: "O1.2",
         background:
           "Let's begin with the Alphabet, and learn to speak the sound of each letter and words that use them!",
+        index: 2,
         videos: [
           {
             duration: "11:52",
@@ -278,6 +281,7 @@ export const languageData = [
         outcome: "O1.2",
         background:
           "Time to level it up a little! Let's start reading words, syllable by syllable!",
+        index: 3,
         videos: [
           {
             duration: " 1:59",
@@ -329,6 +333,7 @@ export const languageData = [
         outcome: "O1.2",
         background:
           "Time to level it up even more! Let's start reading slightly harder words, syllable by syllable!",
+        index: 4,
         videos: [
           {
             duration: "11:58",
