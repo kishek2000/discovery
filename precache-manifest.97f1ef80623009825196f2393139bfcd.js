@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac83f6b83372835775ee11be175f5f05",
+    "revision": "d120e92667383983f9d33542ccefbaf9",
     "url": "/discovery/index.html"
   },
   {
-    "revision": "a07687517dcf9d13ccb5",
-    "url": "/discovery/static/css/main.f6f82a05.chunk.css"
+    "revision": "08fddecd7b3420a3dd9b",
+    "url": "/discovery/static/css/main.8cb646d1.chunk.css"
   },
   {
-    "revision": "8496a17dc03eafcc5a09",
-    "url": "/discovery/static/js/2.9ebe5443.chunk.js"
+    "revision": "9060697e0f00a6facf85",
+    "url": "/discovery/static/js/2.49619886.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/discovery/static/js/2.9ebe5443.chunk.js.LICENSE.txt"
+    "url": "/discovery/static/js/2.49619886.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a07687517dcf9d13ccb5",
-    "url": "/discovery/static/js/main.032495d8.chunk.js"
+    "revision": "08fddecd7b3420a3dd9b",
+    "url": "/discovery/static/js/main.f7a2a7c8.chunk.js"
   },
   {
     "revision": "44128ae5be8000aab4c4",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/discovery/static/media/earthIsland.9bb5c8ee.png"
   },
   {
-    "revision": "4ca1f172053a49c122578c7c0d0a2233",
-    "url": "/discovery/static/media/language.4ca1f172.jpg"
+    "revision": "04fd3b824d50283b32271370398a9b9f",
+    "url": "/discovery/static/media/language.04fd3b82.jpg"
   },
   {
     "revision": "a955d27ca1c04139156a36badb7c06b8",
@@ -61,7 +61,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "71135219f86fa75dd4d58261230d0202",
-    "url": "/discovery/static/media/mainbg.71135219.mp3"
+    "url": "/discovery/static/media/mainBg.71135219.mp3"
   },
   {
     "revision": "7076c640b3d130906232b6c4dc02e0f5",
