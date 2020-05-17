@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { HomePage } from "./HomePage";
+import { RenderApp } from "./RenderApp";
 
-export default function App() {
+export default function AppContainer() {
   const [home, setHome] = useState(true);
   const [currentPage, setCurrentPage] = useState("home");
   const [space, setSpace] = useState(false);
@@ -51,7 +51,7 @@ export default function App() {
   ];
 
   return (
-    <HomePage
+    <RenderApp
       pageStates={pageStates}
       home={home}
       currentPage={currentPage}

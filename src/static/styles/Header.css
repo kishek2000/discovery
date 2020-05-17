@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   background-size: cover;
   color: white;
   position: relative;
@@ -39,9 +38,7 @@
 .App-header-item {
   display: flex;
   flex-direction: row;
-  /* width: 250px; */
   padding: 15px 35px;
-  /* border: 1px solid white; */
   border-radius: 25px;
   justify-content: center;
   align-items: center;
@@ -57,6 +54,7 @@
 
 .App-header-item-label {
   font-family: "Amatic SC";
+  font-weight: bold;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -64,7 +62,6 @@
 .App-header-item:hover .App-header-item-label {
   font-size: 48px;
   transition: 0.3s;
-  /* animation: appear 1s ease-in-out; */
 }
 
 .App-header-item:hover .App-header-item-img {
@@ -92,16 +89,22 @@
   top: 70px;
 }
 
-.App-header-item.space .App-header-item-label {
+.App-header-item.space .App-header-item-label,
+.App-header-item.earth .App-header-item-label,
+.App-header-item.creative .App-header-item-label,
+.App-header-item.body .App-header-item-label,
+.App-header-item.language .App-header-item-label,
+.App-header-item.stories .App-header-item-label {
   font-size: 70px;
 }
 
-.App-header-item.space:hover .App-header-item-label {
+.App-header-item.space:hover .App-header-item-label,
+.App-header-item.earth:hover .App-header-item-label,
+.App-header-item.creative:hover .App-header-item-label,
+.App-header-item.body:hover .App-header-item-label,
+.App-header-item.language:hover .App-header-item-label,
+.App-header-item.stories:hover .App-header-item-label {
   font-size: 90px;
-}
-
-.App-header-item.space .App-header-item-img {
-  display: none;
 }
 
 .App-header-item.creative {
@@ -113,26 +116,14 @@
   background: url("../images/creativeIsland.png");
   background-repeat: no-repeat;
   background-position: center;
-  transition: 0.3s;
   background-size: contain;
+  transition: 0.3s;
 }
 
 .App-header-item.creative:hover {
   bottom: 75px;
   right: 30px;
   min-width: 500px;
-}
-
-.App-header-item.creative .App-header-item-label {
-  font-size: 70px;
-}
-
-.App-header-item.creative:hover .App-header-item-label {
-  font-size: 90px;
-}
-
-.App-header-item.creative .App-header-item-img {
-  display: none;
 }
 
 .App-header-item.earth {
@@ -147,23 +138,12 @@
   transition: 0.3s;
   background-size: contain;
 }
-.App-header-item.earth .App-header-item-label {
-  font-size: 70px;
-}
 
 .App-header-item.earth:hover {
   width: 405px;
   height: 540px;
   bottom: 25px;
   left: 25px;
-}
-
-.App-header-item.earth:hover .App-header-item-label {
-  font-size: 90px;
-}
-
-.App-header-item.earth .App-header-item-img {
-  display: none;
 }
 
 .App-header-item.stories {
@@ -177,17 +157,6 @@
   background-position: center;
   transition: 0.3s;
   background-size: contain;
-}
-.App-header-item.stories .App-header-item-label {
-  font-size: 70px;
-}
-
-.App-header-item.stories:hover .App-header-item-label {
-  font-size: 90px;
-}
-
-.App-header-item.stories .App-header-item-img {
-  display: none;
 }
 
 .App-header-item.stories:hover {
@@ -206,22 +175,11 @@
   transition: 0.3s;
   background-size: contain;
 }
-.App-header-item.language .App-header-item-label {
-  font-size: 70px;
-}
 
 .App-header-item.language:hover {
   min-width: 400px;
   height: 400px;
   top: 60px;
-}
-
-.App-header-item.language:hover .App-header-item-label {
-  font-size: 90px;
-}
-
-.App-header-item.language .App-header-item-img {
-  display: none;
 }
 
 .App-header-item.body {
@@ -239,21 +197,8 @@
 .App-header-item.body:hover {
   bottom: 75px;
   min-width: 500px;
-  /* background: url("../images/bodyIslandDark.png"),*/
   background-repeat: no-repeat;
   background-position: center;
   transition: 0.3s;
   background-size: contain;
-}
-
-.App-header-item.body .App-header-item-label {
-  font-size: 70px;
-}
-
-.App-header-item.body:hover .App-header-item-label {
-  font-size: 90px;
-}
-
-.App-header-item.body .App-header-item-img {
-  display: none;
 }

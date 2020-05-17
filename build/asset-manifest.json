@@ -1,30 +1,24 @@
 {
   "files": {
-    "main.css": "/discovery/static/css/main.f6f82a05.chunk.css",
-    "main.js": "/discovery/static/js/main.032495d8.chunk.js",
-    "main.js.map": "/discovery/static/js/main.032495d8.chunk.js.map",
+    "main.css": "/discovery/static/css/main.8cb646d1.chunk.css",
+    "main.js": "/discovery/static/js/main.f7a2a7c8.chunk.js",
+    "main.js.map": "/discovery/static/js/main.f7a2a7c8.chunk.js.map",
     "runtime-main.js": "/discovery/static/js/runtime-main.50d87a60.js",
     "runtime-main.js.map": "/discovery/static/js/runtime-main.50d87a60.js.map",
-    "static/js/2.9ebe5443.chunk.js": "/discovery/static/js/2.9ebe5443.chunk.js",
-    "static/js/2.9ebe5443.chunk.js.map": "/discovery/static/js/2.9ebe5443.chunk.js.map",
+    "static/js/2.49619886.chunk.js": "/discovery/static/js/2.49619886.chunk.js",
+    "static/js/2.49619886.chunk.js.map": "/discovery/static/js/2.49619886.chunk.js.map",
     "index.html": "/discovery/index.html",
-    "precache-manifest.830c10046bd9a86a84ef222fb40c2db4.js": "/discovery/precache-manifest.830c10046bd9a86a84ef222fb40c2db4.js",
+    "precache-manifest.97f1ef80623009825196f2393139bfcd.js": "/discovery/precache-manifest.97f1ef80623009825196f2393139bfcd.js",
     "service-worker.js": "/discovery/service-worker.js",
-    "static/css/main.f6f82a05.chunk.css.map": "/discovery/static/css/main.f6f82a05.chunk.css.map",
-    "static/js/2.9ebe5443.chunk.js.LICENSE.txt": "/discovery/static/js/2.9ebe5443.chunk.js.LICENSE.txt",
-    "static/media/Body.css": "/discovery/static/media/body.8135499e.jpg",
-    "static/media/Header.css": "/discovery/static/media/storyIsland.b5d5d90a.png",
-    "static/media/Creative.css": "/discovery/static/media/creative.80fcb812.jpeg",
-    "static/media/Earth.css": "/discovery/static/media/earth.66b6bcd1.jpg",
-    "static/media/Language.css": "/discovery/static/media/language.4ca1f172.jpg",
-    "static/media/mainbg.mp3": "/discovery/static/media/mainbg.71135219.mp3",
-    "static/media/Space.css": "/discovery/static/media/space.7076c640.png",
-    "static/media/Stories.css": "/discovery/static/media/stories.5d6b8750.jpg"
+    "static/css/main.8cb646d1.chunk.css.map": "/discovery/static/css/main.8cb646d1.chunk.css.map",
+    "static/js/2.49619886.chunk.js.LICENSE.txt": "/discovery/static/js/2.49619886.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/discovery/static/media/storyIsland.b5d5d90a.png",
+    "static/media/mainBg.mp3": "/discovery/static/media/mainBg.71135219.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.50d87a60.js",
-    "static/js/2.9ebe5443.chunk.js",
-    "static/css/main.f6f82a05.chunk.css",
-    "static/js/main.032495d8.chunk.js"
+    "static/js/2.49619886.chunk.js",
+    "static/css/main.8cb646d1.chunk.css",
+    "static/js/main.f7a2a7c8.chunk.js"
   ]
 }

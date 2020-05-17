@@ -20,9 +20,10 @@
   align-items: center;
   height: 100px;
   width: 60px;
-  z-index: 1;
+  z-index: 22;
   animation: float 2s ease-in infinite;
   border-radius: 12px;
+  cursor: pointer;
 }
 
 .App-experience-overlay {
@@ -47,6 +48,7 @@
   height: 40px;
   filter: invert(100%);
   -webkit-filter: invert(100%);
+  z-index: 22;
   cursor: pointer;
   margin-top: 3px;
 }
@@ -57,29 +59,17 @@
   height: 45px;
 }
 
-.App-space-experience,
-.App-earth-experience,
-.App-language-experience,
-.App-stories-experience,
-.App-body-experience,
-.App-creative-experience {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  width: 100vw;
-  /* align-items: center; */
-  /* animation: appear 1s ease-in; */
-  color: white;
-}
-
 .App-experience-list {
   display: flex;
   position: relative;
   flex-direction: column;
-  padding-bottom: 40px;
   margin-left: 350px;
   margin-right: 350px;
   overflow-x: hidden;
+}
+
+.App-experience-area {
+  margin-bottom: 120px;
 }
 
 .App-experience-area .App-experience-list-meta {
@@ -216,4 +206,85 @@
 .list-container {
   margin-bottom: 120px;
   position: relative;
+}
+
+.App-experience-usp {
+  font-family: "Patrick Hand";
+  font-size: 36px;
+  margin-top: 40px;
+  animation: appear 1s ease-in;
+  margin-bottom: 70px;
+}
+
+.App-experience .App-experience-title,
+.App-experience .App-experience-usp {
+  align-self: center;
+}
+
+.App-experience-content {
+  animation: appear 1s ease-in-out;
+  min-height: 80vh;
+}
+
+.App-experience-body {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 75px;
+  justify-content: center;
+}
+
+.App-experience-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-experience .list-container:last-child {
+  margin-bottom: 0;
+}
+
+/* Experience Specific Styles and Backgrounds */
+
+.App-experience.space,
+.App-experience.earth,
+.App-experience.language,
+.App-experience.stories,
+.App-experience.body,
+.App-experience.creative {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-blend-mode: darken;
+  overflow-y: scroll;
+}
+
+.App-experience.earth {
+  background: url("../../images/earth.jpg"), rgba(0, 0, 0, 25%);
+  background-size: cover;
+}
+
+.App-experience.body {
+  background: url("../../images/body.jpg"), rgba(0, 0, 0, 45%);
+  background-size: cover;
+}
+
+.App-experience.language {
+  background: url("../../images/language.jpg"), rgba(0, 0, 0, 45%);
+  background-size: cover;
+}
+
+.App-experience.space {
+  background: url("../../images/space.png"), rgba(0, 0, 0, 25%);
+  background-size: cover;
+}
+
+.App-experience.stories {
+  background: url("../../images/stories.jpg"), rgba(0, 0, 0, 45%);
+  background-size: cover;
+}
+
+.App-experience.creative {
+  background: url("../../images/creative.jpeg"), rgba(0, 0, 0, 65%);
+  background-size: cover;
 }

@@ -1,17 +1,26 @@
 import React from "react";
+import { PlaySong } from "../functions/PlaySong";
 
-export function MediaOverlay(props) {
+export function ExperienceOverlay({
+  setOverlayVideo,
+  mp3,
+  classN,
+  setPlaying,
+  video,
+}) {
   return (
-    props.video !== "" && (
+    video !== "" && (
       <div
         className="App-experience-overlay"
         onClick={() => {
-          props.setOverlayVideo("");
+          setOverlayVideo("");
+          PlaySong(classN, mp3);
+          setPlaying(true);
         }}
       >
         <iframe
           className="App-experience-overlay-video"
-          src={props.video.link}
+          src={video.link}
           frameBorder="0"
           allow="accelerometer; encrypted-media; gyroscope;"
           allowFullScreen="allowfullscreen"
