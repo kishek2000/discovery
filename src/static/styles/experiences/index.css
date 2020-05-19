@@ -18,10 +18,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
   width: 60px;
   z-index: 22;
-  animation: float 2s ease-in infinite;
   border-radius: 12px;
   cursor: pointer;
 }

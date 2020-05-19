@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { allMedia } from "../data";
 import { RenderExperience } from "./components/index";
 import { SubjectItem } from "./components/SubjectItem";
+import { BgJingle } from "./components/BgJingle";
+import { ControlsPanel } from "./components/ControlsPanel";
+import pause from "../static/images/pause.png";
+import play from "../static/images/play.png";
+import mp3 from "../static/music/mainBg.mp3";
 
 export function RenderApp({
   setHome,
@@ -15,6 +20,9 @@ export function RenderApp({
     pageStates,
     currentPage
   );
+
+  const [playing, setPlaying] = useState(true);
+
   const experienceProps = {
     showPage,
     classN,
@@ -23,8 +31,22 @@ export function RenderApp({
     currentPage,
   };
 
+  const controlProps = {
+    play,
+    pause,
+    mp3,
+  };
+
   return (
     <div className="App">
+      <BgJingle />
+      {home && (
+        <ControlsPanel
+          {...controlProps}
+          setPlaying={setPlaying}
+          playing={playing}
+        />
+      )}
       {home && (
         <header id="App-header">
           <div className="App-header-title">DISCOVERY</div>
@@ -41,7 +63,11 @@ export function RenderApp({
           ))}
         </header>
       )}
-      <RenderExperience {...experienceProps} />
+      <RenderExperience
+        {...experienceProps}
+        setPlaying={setPlaying}
+        playing={playing}
+      />
     </div>
   );
 }

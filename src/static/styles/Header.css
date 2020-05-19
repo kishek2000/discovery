@@ -202,3 +202,12 @@
   transition: 0.3s;
   background-size: contain;
 }
+
+.App .App-experience-controls-header {
+  height: unset;
+  animation: none;
+}
+
+.App-experience .App-experience-controls-header {
+  height: 100px;
+}

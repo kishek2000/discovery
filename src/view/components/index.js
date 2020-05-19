@@ -9,9 +9,10 @@ export function RenderExperience({
   setHome,
   showPage,
   currentPage,
+  playing,
+  setPlaying,
 }) {
   const [overlayVideo, setOverlayVideo] = useState("");
-  const [playing, setPlaying] = useState(true);
 
   const pageProps = {
     classN,

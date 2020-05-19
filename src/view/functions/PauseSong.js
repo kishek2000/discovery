@@ -1,5 +1,6 @@
-export function PauseSong(classN, src) {
-  const player = document.getElementById(`${classN}BgMusic`);
+export function PauseSong(src) {
+  console.log("pause call triggered");
+  const player = document.getElementById(`bgMusic`);
   if (player !== null) {
     player.autoplay = false;
     player.pause();

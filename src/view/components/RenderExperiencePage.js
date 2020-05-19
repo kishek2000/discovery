@@ -1,7 +1,6 @@
 import React from "react";
 import { allMedia } from "../../data";
 import { ExperienceContent } from "./ExperienceContent";
-import { BgJingle } from "./BgJingle";
 
 export function RenderExperiencePage({
   classN,
@@ -24,7 +23,6 @@ export function RenderExperiencePage({
   };
   return (
     <>
-      <BgJingle classN={classN} />
       <div className="App-experience-title">{items["title"]}</div>
       <div className={`App-experience-usp`}>{items["usp"]}</div>
       <div className={`App-experience-content`}>
