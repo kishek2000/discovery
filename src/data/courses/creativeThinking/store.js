@@ -316,7 +316,7 @@ export const creativeData = [
   },
   {
     type: "list",
-    title: "Let's Make Stuff!",
+    title: "Let's Do Origami!",
     outcome: "O4.3",
     background:
       "Creativity is also about getting hands on and making things. Let's make some origami friends!",
@@ -374,6 +374,126 @@ export const creativeData = [
         id: "kOm47eh2AYk",
         description:
           "Whales are big animals, and live deep in the ocean. Let's make a paper one!",
+        difficulty: "easy",
+      },
+    ],
+  },
+  {
+    type: "list",
+    title: "Let's Draw!",
+    outcome: "O4.3",
+    background:
+      "Creativity is also about getting hands on and making things. Let's draw some fun stuff!",
+    index: 3,
+    videos: [
+      {
+        duration: "",
+        title: "Ice Cream!",
+        id: "UW6H5dAPuhY",
+        description: "Let's draw an ice cream cone with a scoop of vanilla!",
+        difficulty: "easy",
+      },
+      {
+        duration: "",
+        title: "Cat",
+        id: "y8oTyNH0bQk",
+        description: "Come and learn how to draw a cute cat!",
+        difficulty: "easy",
+      },
+      {
+        duration: "",
+        title: "Animals",
+        id: "7SWvlUd2at8",
+        description: "Let's draw some animals!",
+        difficulty: "easy",
+      },
+      {
+        duration: "",
+        title: "Pikachu",
+        id: "WoV4f1ncE7U",
+        description: "Let's draw one of our favourite pokemon!",
+        difficulty: "easy",
+      },
+      {
+        duration: "",
+        title: "T-Rex",
+        id: "nftijU3On2M",
+        description: "Let's draw the king of dinosaurs!",
+        difficulty: "easy",
+      },
+      {
+        duration: "",
+        title: "Cartoon Pineapple",
+        id: "Oiol5T9nl1M",
+        description: "Let's bring a pineapple to life!",
+        difficulty: "easy",
+      },
+      {
+        duration: "",
+        title: "Knight",
+        id: "Xl1O0uFafCk",
+        description:
+          "Knights are brave, armoured men who protect their kingdom. Let's draw one!",
+        difficulty: "easy",
+      },
+      {
+        duration: "",
+        title: "Chocolate Easter Bunny",
+        id: "Z5iMLKIzmXI",
+        description:
+          "Chocolate Easter Bunnies are very popular. Let's draw one!",
+        difficulty: "medium",
+      },
+      {
+        duration: "",
+        title: "Cute Toast",
+        id: "R-CZkqXqjn0",
+        description: "Toast is so yummy! Let's draw a cute friend version.",
+        difficulty: "medium",
+      },
+      {
+        duration: "",
+        title: "Jelly Bean",
+        id: "Z-XZnuFEPEA",
+        description: "Jelly Beans are so yummy! Let's bring them to life!",
+        difficulty: "medium",
+      },
+      {
+        duration: "",
+        title: "Pokeball",
+        id: "xV2n-KUeltc",
+        description: "Let's draw the pokeballs that we see in Pokemon!",
+        difficulty: "medium",
+      },
+    ],
+  },
+  {
+    type: "list",
+    title: "Let's Paint!",
+    outcome: "O4.3",
+    background:
+      "Creativity is also about getting hands on and making things. Let's paint!",
+    index: 4,
+    videos: [
+      {
+        duration: "",
+        title: "Watermelon",
+        id: "0OV-XPfPFDA",
+        description: "Let's paint some cute watermelons!",
+        difficulty: "easy",
+      },
+      {
+        duration: "",
+        title: "Palm Trees Sunset",
+        id: "swu28u4l3Fo",
+        description: "Sunsets are so beautiful. Let's paint one!",
+        difficulty: "easy",
+      },
+      {
+        duration: "",
+        title: "Cupcakes",
+        id: "PN5MDr7guOw",
+        description: "Cupcakes are really yummy desserts. Let's paint some!",
         difficulty: "easy",
       },
     ],

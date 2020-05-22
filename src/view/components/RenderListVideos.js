@@ -20,17 +20,17 @@ export function RenderListVideos({
             onClick={() => {
               setOverlayVideo({
                 link: `https://www.youtube.com/embed/${item["id"]}`,
-                src: mp3,
-                class: classN,
+                list: list,
+                title: item["title"],
               });
               PauseSong(classN, mp3);
               setPlaying(false);
             }}
           />
           <div className="App-experience-media-title">{item["title"]}</div>
-          <div className="App-experience-media-description">
+          {/* <div className="App-experience-media-description">
             {item["description"]}
-          </div>
+          </div> */}
         </div>
       ))}
     </div>

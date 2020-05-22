@@ -11,7 +11,7 @@ export class allMedia {
       language: {
         data: languageData,
         usp:
-          "Language is so important for us to be able to work with others. Let's get better together!",
+          "Language is so important for us to be able to work with others. Click on any picture to play!",
         title: "LANGUAGE",
       },
       stories: {
@@ -23,24 +23,25 @@ export class allMedia {
       earth: {
         data: earthData,
         usp:
-          "The world around us is so beautiful and vast. Let's learn about it!",
+          "The world around us is so beautiful and vast. Click on any picture to play!",
         title: "OUR PLANET",
       },
       body: {
         data: bodyData,
         usp:
-          "There is so much we can wonder and learn about health, and our bodies. Let's dive right into it!",
+          "There is so much we can wonder and learn about health, and our bodies. Click on any picture to play!",
         title: "HEALTH",
       },
       space: {
         data: spaceData,
-        usp: "Ever looked at the sky and wondered where it all came from?",
+        usp:
+          "Ever looked at the sky and wondered where it all came from? Click on any picture to play",
         title: "SPACE",
       },
       creative: {
         data: creativeData,
         usp:
-          "Let's have some fun and explore the world of imagination and curiosity!",
+          "Let's have some fun and explore the world of imagination and curiosity! Click on any picture to play",
         title: "CREATIVE",
       },
     };

@@ -105,6 +105,28 @@ export const earthData = [
             difficulty: "medium",
             duration: "",
           },
+          {
+            title: "Mountains",
+            id: "Fd_XqYE2BWY",
+            description: "Where do mountains come from? Let's find out!",
+            difficulty: "medium",
+            duration: "",
+          },
+          {
+            title: "Volcanoes",
+            id: "lAmqsMQG3RM",
+            description: "What are volcanoes and where do they come from?",
+            difficulty: "medium",
+            duration: "",
+          },
+          {
+            title: "The Grand Canyon",
+            id: "oZZEJMtLOKU",
+            description:
+              "What are canyons? Let's find out and look at the biggest one in the world!",
+            difficulty: "medium",
+            duration: "",
+          },
         ],
       },
     ],
@@ -137,6 +159,14 @@ export const earthData = [
             id: "DoBhZEgjEuA",
             description:
               "We all see mobile phones everyday. But how do they work?",
+            difficulty: "medium",
+            duration: "",
+          },
+          {
+            title: "Make your own Phone!",
+            id: "3yqB2KFwJCo",
+            description:
+              "Did you know you can make a simple phone with string and cups? Let's find out how!",
             difficulty: "medium",
             duration: "",
           },

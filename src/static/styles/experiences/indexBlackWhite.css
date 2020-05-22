@@ -32,94 +32,20 @@
   z-index: 5;
 }
 
-.App-experience-overlay-content {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-}
-
 .App-experience-overlay-video {
   position: relative;
-  margin-top: 50px;
-  margin-left: 200px;
-  width: 1520px;
-  height: 855px;
-}
-
-.App-experience-overlay-header {
-  display: flex;
-  flex-direction: row;
-  margin-top: 200px;
-  margin-left: 200px;
-  margin-right: 200px;
-  justify-content: space-between;
-}
-
-.App-experience-overlay-video-title,
-.App-experience-overlay-close {
-  color: white;
-  font-size: 32px;
-  font-family: "Patrick Hand";
-  text-transform: uppercase;
-}
-.App-experience-overlay-video-title {
-  font-weight: bold;
-}
-
-.App-experience-overlay-close {
-  cursor: pointer;
-}
-
-.App-experience-overlay-close:hover {
-  font-weight: bold;
-}
-
-.App-experience-overlay-list {
-  margin-top: 50px;
-  margin-left: 95px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  overflow-y: scroll;
-  height: 855px;
-  padding-right: 80px;
-}
-
-.App-experience-overlay-list-item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.App-experience-overlay-list-thumbnail {
-  padding: 0;
-  margin: 0;
-  height: 300px;
-  width: 450px;
-  cursor: pointer;
-  object-fit: cover;
-}
-
-.App-experience-overlay-list-title {
-  font-family: "Patrick Hand";
-  font-size: 28px;
-  color: white;
-}
-.App-experience-overlay-list-label {
-  margin-top: 20px;
-  font-family: "Patrick Hand";
-  font-size: 24px;
-  color: white;
-  line-height: 0.5em;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 1920px;
+  height: 1080px;
 }
 
 .App-home-button {
   width: 40px;
   height: 40px;
-  filter: invert(100%);
-  -webkit-filter: invert(100%);
+  /* filter: invert(100%);
+    -webkit-filter: invert(100%); */
   z-index: 22;
   cursor: pointer;
   margin-top: 3px;
@@ -138,10 +64,14 @@
   margin-left: 350px;
   margin-right: 350px;
   overflow-x: hidden;
+  box-shadow: 1px 1px 10px rgb(218, 218, 218);
+  padding: 60px 80px;
+  border-radius: 12px;
+  background: white;
 }
 
 .App-experience-area {
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 
 .App-experience-area .App-experience-list-meta {
@@ -216,6 +146,7 @@
 .App-experience-media-title {
   font-family: "Patrick Hand";
   font-weight: 900;
+  text-transform: uppercase;
   font-size: 24px;
   margin-top: 20px;
 }
@@ -229,12 +160,13 @@
 
 .play-img,
 .pause-img {
-  filter: invert(100%);
-  -webkit-filter: invert(100%);
+  /* filter: invert(100%);
+    -webkit-filter: invert(100%); */
   width: 30px;
   height: 30px;
   cursor: pointer;
   margin-bottom: 3px;
+  z-index: 5;
 }
 
 .play-img:hover,
@@ -250,7 +182,7 @@
   width: 50px;
   height: 50px;
   top: 50%;
-  filter: invert(100%);
+  /* filter: invert(100%); */
   cursor: pointer;
   scroll-behavior: smooth;
 }
@@ -328,38 +260,37 @@
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  color: white;
+  color: black;
   background-blend-mode: darken;
   overflow-y: scroll;
 }
 
-.App-experience.earth {
-  background: url("../../images/earth.jpeg"), rgba(0, 0, 0, 50%);
-  background-size: cover;
-}
-
-.App-experience.body {
-  background: url("../../images/body.jpg"), rgba(0, 0, 0, 75%);
-  background-size: cover;
-}
-
-.App-experience.language {
-  background: url("../../images/language.jpg"), rgba(0, 0, 0, 65%);
-  background-size: cover;
-  background-position: right;
-}
-
-.App-experience.space {
-  background: url("../../images/space.png"), rgba(0, 0, 0, 45%);
-  background-size: cover;
-}
-
-.App-experience.stories {
-  background: url("../../images/stories.jpg"), rgba(0, 0, 0, 45%);
-  background-size: cover;
-}
-
-.App-experience.creative {
-  background: url("../../images/creative.png"), rgba(0, 0, 0, 65%);
-  background-size: cover;
-}
+/* .App-experience.earth {
+    background: url("../../images/earth.jpg"), rgba(0, 0, 0, 45%);
+    background-size: cover;
+  } */
+/*
+  .App-experience.body {
+    background: url("../../images/body.jpg"), rgba(0, 0, 0, 45%);
+    background-size: cover;
+  }
+  
+  .App-experience.language {
+    background: url("../../images/language.jpg"), rgba(0, 0, 0, 45%);
+    background-size: cover;
+  }
+  
+  .App-experience.space {
+    background: url("../../images/space.png"), rgba(0, 0, 0, 45%);
+    background-size: cover;
+  }
+  
+  .App-experience.stories {
+    background: url("../../images/stories.jpg"), rgba(0, 0, 0, 45%);
+    background-size: cover;
+  }
+  
+  .App-experience.creative {
+    background: url("../../images/creative.jpg"), rgba(0, 0, 0, 45%);
+    background-size: cover;
+  } */

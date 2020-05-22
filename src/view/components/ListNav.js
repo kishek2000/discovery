@@ -5,7 +5,7 @@ import next from "../../static/images/next.png";
 export function ListNav({ list, index }) {
   return (
     <>
-      {list.videos.length > 3 && (
+      {list.videos.length >= 3 && (
         <>
           <img
             src={prev}

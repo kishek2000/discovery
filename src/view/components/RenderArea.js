@@ -17,12 +17,12 @@ export function RenderArea({
   };
   return (
     <div className="App-experience-area" key={index}>
-      <div className="App-experience-list-meta">
+      {/* <div className="App-experience-list-meta">
         <div className="App-experience-list-title">{list["title"]}</div>
         <div className="App-experience-list-background">
           {list["background"]}
         </div>
-      </div>
+      </div> */}
       {list.lists.map((nest) => (
         <RenderList
           num={nest["index"]}
