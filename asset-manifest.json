@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/discovery/static/css/main.24de1e2c.chunk.css",
+    "main.css": "/discovery/static/css/main.92923f50.chunk.css",
     "main.js": "/discovery/static/js/main.67159caa.chunk.js",
     "main.js.map": "/discovery/static/js/main.67159caa.chunk.js.map",
     "runtime-main.js": "/discovery/static/js/runtime-main.50d87a60.js",
@@ -8,17 +8,17 @@
     "static/js/2.e2223724.chunk.js": "/discovery/static/js/2.e2223724.chunk.js",
     "static/js/2.e2223724.chunk.js.map": "/discovery/static/js/2.e2223724.chunk.js.map",
     "index.html": "/discovery/index.html",
-    "precache-manifest.5cde0fe28b3ec95ab61fcb818ec7e2e2.js": "/discovery/precache-manifest.5cde0fe28b3ec95ab61fcb818ec7e2e2.js",
+    "precache-manifest.ae5ce1869c01408b2ba0304c3d87180e.js": "/discovery/precache-manifest.ae5ce1869c01408b2ba0304c3d87180e.js",
     "service-worker.js": "/discovery/service-worker.js",
-    "static/css/main.24de1e2c.chunk.css.map": "/discovery/static/css/main.24de1e2c.chunk.css.map",
+    "static/css/main.92923f50.chunk.css.map": "/discovery/static/css/main.92923f50.chunk.css.map",
     "static/js/2.e2223724.chunk.js.LICENSE.txt": "/discovery/static/js/2.e2223724.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/discovery/static/media/storyIsland.da22868a.png",
+    "static/media/index.css": "/discovery/static/media/storyIsland.5bbc2df1.png",
     "static/media/mainBg.mp3": "/discovery/static/media/mainBg.71135219.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.50d87a60.js",
     "static/js/2.e2223724.chunk.js",
-    "static/css/main.24de1e2c.chunk.css",
+    "static/css/main.92923f50.chunk.css",
     "static/js/main.67159caa.chunk.js"
   ]
 }
