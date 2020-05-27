@@ -1,4 +1,269 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 250px) and (max-width: 650px) and (orientation: landscape) {
+  .App-experience-title {
+    font-size: 70px;
+    margin-top: 10%;
+  }
+  .App-experience-controls-header {
+    top: 0;
+    left: 1.5%;
+    flex-direction: row;
+  }
+  .App .App-experience-controls-header {
+    height: unset;
+    animation: none;
+  }
+  .App-experience .App-experience-controls-header {
+    height: 70px;
+  }
+  .App-experience-usp {
+    font-size: 22px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+  .play-img,
+  .pause-img {
+    width: 15px;
+    height: 15px;
+  }
+  .App-home-button {
+    width: 20px;
+    height: 20px;
+    margin-right: 7.5px;
+  }
+  .App-experience-list {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .App-experience-list::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  .App-experience-list-meta {
+    margin-bottom: 5%;
+  }
+  .App-experience-list-title {
+    font-size: 22px;
+  }
+  .App-experience-list-background {
+    font-size: 14px;
+    margin-top: 25px;
+  }
+  .App-experience-media-thumbnail {
+    margin-right: 25px;
+    height: 150px;
+    min-width: 270px;
+  }
+  .App-experience-media-title {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .list-container {
+    margin-bottom: 10%;
+  }
+  .App-experience-list-next {
+    right: 5%;
+  }
+  .App-experience-list-prev {
+    left: 5%;
+  }
+  .App-experience-list-next,
+  .App-experience-list-prev {
+    width: 30px;
+    height: 30px;
+  }
+  .App-experience-list-next:focus,
+  .App-experience-list-prev:focus {
+    outline: none;
+    background: none;
+    color: none;
+  }
+  .App-experience-area {
+    margin-bottom: 10%;
+  }
+
+  .App-experience-area .App-experience-list-meta {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+  .App-experience-overlay-video {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 384px;
+    height: 200px;
+    border: 1px solid white;
+  }
+  .App-experience-overlay-header {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .App-experience-overlay-video-title,
+  .App-experience-overlay-close {
+    font-size: 18px;
+  }
+  .App-experience-overlay-list {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 10%;
+    height: 200px;
+    padding-right: 10%;
+  }
+  .App-experience-overlay-list-item {
+    margin-top: 20px;
+  }
+  .App-experience-overlay-list-thumbnail {
+    height: 100px;
+    width: 150px;
+  }
+  .App-experience-overlay-list-title {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+  .App-experience-overlay-list-label {
+    margin-top: 10%;
+    font-size: 14px;
+    width: 130px;
+  }
+}
+@media only screen and (min-width: 250px) and (max-width: 650px) and (orientation: portrait) {
+  .App-experience-title {
+    font-size: 70px;
+    margin-top: 10%;
+  }
+  .App-experience-controls-header {
+    top: 0;
+    left: 1.5%;
+    flex-direction: row;
+  }
+  .App .App-experience-controls-header {
+    height: unset;
+    animation: none;
+  }
+  .App-experience .App-experience-controls-header {
+    height: 70px;
+  }
+  .App-experience-usp {
+    font-size: 22px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+  .play-img,
+  .pause-img {
+    width: 15px;
+    height: 15px;
+  }
+  .App-home-button {
+    width: 20px;
+    height: 20px;
+    margin-right: 7.5px;
+  }
+  .App-experience-list {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .App-experience-list::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  .App-experience-list-meta {
+    margin-bottom: 5%;
+  }
+  .App-experience-list-title {
+    font-size: 22px;
+  }
+  .App-experience-list-background {
+    font-size: 14px;
+    margin-top: 25px;
+  }
+  .App-experience-media-thumbnail {
+    margin-right: 25px;
+    height: 110px;
+    min-width: 200px;
+  }
+  .App-experience-media-title {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .list-container {
+    margin-bottom: 10%;
+  }
+  .App-experience-list-next {
+    right: 2%;
+  }
+  .App-experience-list-prev {
+    left: 2%;
+  }
+  .App-experience-list-next,
+  .App-experience-list-prev {
+    width: 25px;
+    height: 25px;
+  }
+  .App-experience-list-next:focus,
+  .App-experience-list-prev:focus {
+    outline: none;
+    background: none;
+    color: none;
+  }
+  .App-experience-area {
+    margin-bottom: 10%;
+  }
+
+  .App-experience-area .App-experience-list-meta {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+  .App-experience-overlay-video {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 384px;
+    height: 216px;
+  }
+  .App-experience-overlay-header {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .App-experience-overlay-video-title,
+  .App-experience-overlay-close {
+    font-size: 18px;
+  }
+  .App-experience-overlay-list {
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 216px;
+    padding-right: 3.5%;
+  }
+  .App-experience-overlay-list-item {
+    margin-top: 20px;
+  }
+  .App-experience-overlay-list-thumbnail {
+    height: 100px;
+    width: 150px;
+  }
+  .App-experience-overlay-list-title {
+    font-size: 18px;
+  }
+  .App-experience-overlay-list-label {
+    margin-top: 10%;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
   .App-experience-title {
     font-size: 90px;
     margin-top: 10%;
@@ -626,7 +891,6 @@
 .App-experience-overlay-list-label {
   font-family: "Patrick Hand";
   color: white;
-  line-height: 0.5em;
 }
 
 .App-home-button {
@@ -692,6 +956,7 @@
   flex-direction: column;
 }
 
+/* Another comment */
 .App-experience-media-thumbnail {
   border-radius: 8px;
   object-fit: cover;
