@@ -49,8 +49,10 @@ export function RenderApp({
               {"Welcome to Discovery".toUpperCase()}
             </span>
             <span className="App-mobile-alert-text">
-              Please <strong>rotate your screen</strong> for the best experience
-              :D
+              Please <strong>rotate your screen</strong> for the best
+              experience,
+              <br />
+              or use a laptop/desktop! :D
             </span>
             <div
               className="App-mobile-alert-button"
