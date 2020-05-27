@@ -343,6 +343,94 @@
 
 @media only screen and (min-width: 1440px) {
   .App-header-item {
+    width: 300px;
+    height: 180px;
+    animation: float 3s ease-in-out infinite;
+  }
+  .App-header-item.space .App-header-item-label,
+  .App-header-item.earth .App-header-item-label,
+  .App-header-item.creative .App-header-item-label,
+  .App-header-item.body .App-header-item-label,
+  .App-header-item.language .App-header-item-label,
+  .App-header-item.stories .App-header-item-label {
+    font-size: 70px;
+    text-shadow: 0px 4px 18px #000000;
+  }
+
+  .App-header-item.space:hover .App-header-item-label,
+  .App-header-item.earth:hover .App-header-item-label,
+  .App-header-item.creative:hover .App-header-item-label,
+  .App-header-item.body:hover .App-header-item-label,
+  .App-header-item.language:hover .App-header-item-label,
+  .App-header-item.stories:hover .App-header-item-label {
+    font-size: 90px;
+  }
+  .App-header-item.space:hover {
+    width: 400px;
+    height: 240px;
+    right: 0px;
+    top: 40px;
+  }
+  .App-header-item.language:hover {
+    width: 400px;
+    height: 240px;
+    right: 0px;
+    bottom: 40px;
+  }
+  .App-header-item.body:hover {
+    width: 400px;
+    height: 240px;
+    left: 0px;
+    bottom: 40px;
+  }
+  .App-header-item.creative:hover {
+    width: 400px;
+    height: 240px;
+    left: 0px;
+    top: 40px;
+  }
+  .App-header-item.stories:hover {
+    width: 400px;
+    height: 240px;
+    top: 40px;
+  }
+  .App-header-item.earth:hover {
+    width: 400px;
+    height: 240px;
+    bottom: 40px;
+    text-shadow: 0px 4px 18px #000000;
+  }
+
+  .App-header-item.space {
+    right: 52px;
+    top: 70px;
+  }
+  .App-header-item.language {
+    bottom: 70px;
+    right: 52px;
+  }
+  .App-header-item.body {
+    bottom: 70px;
+    left: 52px;
+  }
+  .App-header-item.creative {
+    top: 70px;
+    left: 52px;
+  }
+  .App-header-item.stories {
+    top: 70px;
+  }
+  .App-header-item.earth {
+    bottom: 70px;
+  }
+  .App-header-title {
+    top: 32.5%;
+    font-size: 120px;
+    width: 700px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .App-header-item {
     width: 400px;
     height: 240px;
     animation: float 3s ease-in-out infinite;
