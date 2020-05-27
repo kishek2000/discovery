@@ -38,11 +38,11 @@ export function RenderApp({
     mp3,
   };
   const [mobileAlert, setMobileAlert] = useState(true);
-  const { width } = UseWindowDimensions();
+  const { height, width } = UseWindowDimensions();
   return (
     <div className={`App alert-${mobileAlert}`}>
       <BgJingle />
-      {width < 500 && mobileAlert && (
+      {width < 1440 && width < height && mobileAlert && (
         <div className="App-mobile-alert-screen">
           <div className="App-mobile-alert">
             <span className="App-mobile-alert-title">
