@@ -5,3 +5,55 @@
   height: 100vh;
   width: 100vw;
 }
+
+.App-mobile-alert-screen {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9;
+}
+
+.App-mobile-alert {
+  z-index: 10;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 7.5% 5%;
+  border-radius: 12px;
+  font-family: "Patrick Hand";
+  white-space: nowrap;
+}
+
+.App-mobile-alert-title {
+  font-size: 175%;
+  font-weight: bold;
+}
+
+.App-mobile-alert-text {
+  margin-top: 5%;
+  font-size: 115%;
+}
+
+.App-mobile-alert-button {
+  margin-top: 5%;
+  padding: 3% 7%;
+  border-radius: 12px;
+  font-size: 110%;
+  text-transform: uppercase;
+  background: rgb(3, 255, 3);
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px darkgreen;
+}
+
+.App-mobile-alert-button:focus {
+  background: rgb(82, 255, 82);
+}

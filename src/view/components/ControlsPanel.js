@@ -15,15 +15,17 @@ export function ControlsPanel({
   return (
     <div className="App-experience-controls-header">
       {setHome && (
-        <img
-          className="App-home-button"
-          src="https://img.icons8.com/material-sharp/96/000000/home.png"
-          alt="home"
-          onClick={() => {
-            setSubject(false);
-            setHome(true);
-          }}
-        />
+        <div className="App-home-button-wrapper">
+          <img
+            className="App-home-button"
+            src="https://img.icons8.com/material-sharp/96/000000/home.png"
+            alt="home"
+            onClick={() => {
+              setSubject(false);
+              setHome(true);
+            }}
+          />
+        </div>
       )}
       <div
         className="music-pause"

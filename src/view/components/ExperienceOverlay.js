@@ -41,7 +41,7 @@ export function ExperienceOverlay({ setOverlayVideo, video }) {
                 {video &&
                   video.list.videos.map((content, key) => (
                     <div className="App-experience-overlay-list-item">
-                      <div className="App-experience-overlay-list-thumbnail">
+                      <div className="App-experience-overlay-list-thumbnail-wrapper">
                         <img
                           src={`https://img.youtube.com/vi/${content["id"]}/hqdefault.jpg`}
                           alt="video-thumbnail"

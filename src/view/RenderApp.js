@@ -7,6 +7,7 @@ import { ControlsPanel } from "./components/ControlsPanel";
 import pause from "../static/images/pause.png";
 import play from "../static/images/play.png";
 import mp3 from "../static/music/mainBg.mp3";
+import UseWindowDimensions from "./components/Dimensions";
 
 export function RenderApp({
   setHome,
@@ -36,10 +37,30 @@ export function RenderApp({
     pause,
     mp3,
   };
-
+  const [mobileAlert, setMobileAlert] = useState(true);
+  const { width } = UseWindowDimensions();
   return (
-    <div className="App">
+    <div className={`App alert-${mobileAlert}`}>
       <BgJingle />
+      {width < 500 && mobileAlert && (
+        <div className="App-mobile-alert-screen">
+          <div className="App-mobile-alert">
+            <span className="App-mobile-alert-title">
+              {"Welcome to Discovery".toUpperCase()}
+            </span>
+            <span className="App-mobile-alert-text">
+              Please <strong>rotate your screen</strong> for the best experience
+              :D
+            </span>
+            <div
+              className="App-mobile-alert-button"
+              onClick={() => setMobileAlert(false)}
+            >
+              Gotcha!
+            </div>
+          </div>
+        </div>
+      )}
       {home && (
         <ControlsPanel
           {...controlProps}
