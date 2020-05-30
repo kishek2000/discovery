@@ -22,6 +22,27 @@ export const earthData = [
         difficulty: "medium",
         duration: "",
       },
+      {
+        title: "Parts of Earth",
+        id: "dk8zDjQT0aE",
+        description: "Let's learn some words that describe things on Earth!",
+        difficulty: "medium",
+        duration: "",
+      },
+      {
+        title: "Countries of the World",
+        id: "l6A2EFkjXq4",
+        description: "Where are you from? How many countries do you know?",
+        difficulty: "medium",
+        duration: "",
+      },
+      {
+        title: "Fun Facts!",
+        id: "McJrAMJMSQ0",
+        description: "Let's dive into some facts about the Earth!",
+        difficulty: "medium",
+        duration: "",
+      },
     ],
   },
   {

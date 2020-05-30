@@ -95,6 +95,36 @@ export const spaceData = [
         difficulty: "challenge",
         duration: "",
       },
+      {
+        title: "What are Atoms?",
+        id: "jMW_0Ro6b5c",
+        description:
+          "Did you know that everything you see is made of Atoms? Let's learn more!",
+        difficulty: "challenge",
+        duration: "",
+      },
+      {
+        title: "The Moon",
+        id: "B-b4XvuQo1Y",
+        description: "What is the moon? Time to found out!",
+        difficulty: "challenge",
+        duration: "",
+      },
+      {
+        title: "The Moon's Phases",
+        id: "f4ZHdzl6ZWg",
+        description: "The Moon goes through phases. What are they?",
+        difficulty: "challenge",
+        duration: "",
+      },
+      {
+        title: "The Milky Way",
+        id: "RubnGwhcT6E",
+        description:
+          "The universe has sooo many galaxies. We are in the Milky Way!",
+        difficulty: "challenge",
+        duration: "",
+      },
     ],
   },
 ];
