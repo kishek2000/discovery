@@ -1,5 +1,5 @@
 import React from "react";
-// import LottieControl from "./LottieControl";
+import LottieControl from "./LottieControl";
 
 export function SubjectItem({
   classN,
@@ -21,13 +21,13 @@ export function SubjectItem({
         key={index}
       >
         <div className={`App-header-item-label`}>{subjectTitle}</div>
-        {/* {classN === "space" && (
+        {classN === "space" && (
           <>
             <div className="App-header-item-lottie">
               <LottieControl />
             </div>
           </>
-        )} */}
+        )}
       </div>
       <div></div>
     </>
