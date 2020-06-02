@@ -574,6 +574,12 @@
   transition: 0.3s;
 }
 
+.App-header-item.space .App-header-item-lottie {
+  position: absolute;
+  z-index: -1;
+  margin-top: 30px;
+}
+
 .App-header-item-img {
   margin-right: 15px;
   height: 60px;
