@@ -593,7 +593,7 @@
 
 .App-header-item.space {
   position: absolute;
-  /* background: url("../images/spaceIsland.png"); */
+  background: url("../images/spaceIsland.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
