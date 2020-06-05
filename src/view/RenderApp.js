@@ -4,6 +4,7 @@ import { RenderExperience } from "./components/index";
 import { SubjectItem } from "./components/SubjectItem";
 import { BgJingle } from "./components/BgJingle";
 import { ControlsPanel } from "./components/ControlsPanel";
+// import { MyComponent } from "./components/Background";
 import pause from "../static/images/pause.png";
 import play from "../static/images/play.png";
 import mp3 from "../static/music/mainBg.mp3";
@@ -70,6 +71,7 @@ export function RenderApp({
           playing={playing}
         />
       )}
+      {/* {home && <MyComponent />} */}
       {home && (
         <header id="App-header">
           <div className="App-header-title">DISCOVERY</div>

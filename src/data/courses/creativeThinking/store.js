@@ -266,7 +266,7 @@ export const creativeData = [
       },
       {
         duration: "",
-        title: "Why do we get Forget?",
+        title: "Why do we Forget?",
         id: "7GI4eTUyGSM",
         description:
           "Sometimes, we forget about things that we should have remembered. Why does this happen?",
